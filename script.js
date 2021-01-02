@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
 
 // TYPED
 var typed = new Typed('.typed', {
-    strings: ["Bonjour à tous et à toutes, je me présente je m'appelle Walter. Suivant actuellement une formation de développeur web, je suis à la recherche d'une expérience qui permettra de mettre en avant ma passion et mes connaissances en désireux de relever de nouveaux challenges. Passioné, sérieux et organisé, je reste à votre disposition dans la perpective de vous rencontrer pour démontrer ma motivation à concrétiser ensemble vos projets."],
+    strings: ["Bonjour à toutes et à tous, je me présente je m'appelle Walter. Ayant terminé ma formation de développeur web, désireux de relever de nouveaux challenges, je suis à la recherche d'une expérience qui permettra de mettre en avant ma passion et mes connaissances. Passioné, sérieux et organisé, je reste à votre écoute en vue de concrétiser ensemble vos projets."],
     typeSpeed: 20,
   });
     
