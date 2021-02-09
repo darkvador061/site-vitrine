@@ -604,6 +604,10 @@ footer p {
     #parcours {
       margin-top: -50px
     }
+    .legende{
+      opacity: 9;
+      transition: none;
+    }
     .legende p {
       display: none;
     }
@@ -648,5 +652,65 @@ footer p {
     }
     .flip-box-back p {
       font-size: 0.7em;
+    }
+  }
+  @media screen and (max-width: 520px){
+    h1 {
+      padding-top: 20px;
+    }
+    h3 {
+      font-size: 1.5em !important;
+      text-align: center;
+    }
+    #fcc, #occ {
+      padding: 50px 0 0 0;
+    }
+    .projet{
+      display: block;
+      
+    }
+    .projet:nth-child(2), .projet:nth-child(3) {
+      margin-left: 0;
+    }
+    .legende {
+      opacity: 1;
+      padding: 0%;
+    }
+    #other-skills {
+      display: none;
+    }
+    #hobbies {
+      margin-top: -30px;
+    }
+    .flip-box-back p {
+      font-size: 0.7em;
+    }
+    #portfoglio{
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+      display: flex;
+      flex-direction: column;
+    }
+    .img-container{
+      width: 100%;
+      height: auto;
+      margin-top: 55px;
+    }
+    .cadre{
+      padding-top: 55px;
+      width: 100%;
+      
+    }
+    .cadre::after, .cadre::before{
+      content: none;
+    }
+    
+  }
+  @media screen and (max-width: 321px) {
+    #langages, #formation{
+      clip-path: none;
+      width: 100%;
+      margin-left: 0%;
     }
   }
